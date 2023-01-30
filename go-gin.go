@@ -24,7 +24,7 @@ type Book struct {
 }
 
 func main() {
-	//println("hehe")
+	println("hehe")
 	err := godotenv.Load(".env")
 	if err != nil {
 		log.Fatal(err)
